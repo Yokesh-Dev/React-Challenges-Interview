@@ -1,0 +1,30 @@
+🚀 Day 1 — React Interview Coding Challenge
+
+⏳ Time limit: 20 minutes
+📄 Start from a blank file
+🧠 Think → Write → Fix loop (no overthinking)
+
+🔥 Task
+
+Build a Counter component with the following features:
+
+Requirements
+
+1️⃣ Display the current count
+2️⃣ Button to increment count
+3️⃣ Button to decrement count
+4️⃣ Button to reset count to 0
+5️⃣ Page title (browser tab title) should update with the count
+🔹 Example: Count: 5
+
+👉 This tests: state, events, side effects, and basic UI.
+
+⛔ Rules (important)
+
+No copy-paste from old code
+
+No searching until you try yourself first
+
+After finishing once → run and check
+
+If something isn't working → fix it, don’t rewrite from scratch
