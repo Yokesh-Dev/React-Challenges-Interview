@@ -1,0 +1,63 @@
+🚀 Day 2 — Todo App (Hard Mode)
+
+⏳ Time limit target: 45–60 minutes
+📄 Start from a blank file
+🧠 Think → Write → Fix loop (no overthinking)
+
+🔥 Requirements
+
+Build a Todo List component with:
+
+1️⃣ Add a todo
+
+Input field
+
+Button to add a new todo
+
+2️⃣ Display list of todos
+
+Render todos using .map()
+
+3️⃣ Delete a todo
+
+Each todo item must have a delete button
+
+4️⃣ Mark todo as complete / incomplete
+
+Checkbox or button to toggle completed state
+
+UI should update (e.g., line-through completed items)
+
+5️⃣ Filter todos
+
+Buttons or tabs to filter:
+
+All
+
+Completed
+
+Incomplete / Active
+
+⚠ Rules
+
+No copy–paste from existing code
+
+Google only when stuck (1–2 minutes max)
+
+Keep writing even if you’re unsure → fix later
+
+If something breaks, don’t delete everything — fix step by step
+
+🎨 (Optional UI bonus — not required)
+
+If you finish early, add localStorage support so todos remain after refresh.
+
+🧩 Hints (only read if stuck)
+
+You do NOT need these now — but keep them in mind:
+
+Feature	Helpful concept
+Add todo	Array spread + setState
+Delete	filter()
+Toggle completed	map()
+Filtering	Derived list using .filter()

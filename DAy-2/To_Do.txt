@@ -1,0 +1,67 @@
+//MAIN
+
+function App() {
+
+
+  return (
+    <>
+      <Header />
+      <ToDoHero />
+      <Form />
+      <ToDoList />
+
+    </>
+  )
+}
+
+export default App
+
+// ToDoHero Component
+
+export function ToDoHero({ todos_completed, total_todos }) {
+    return (
+        <section>
+            <div>
+                <p>Task Done</p>
+                <p>Keep It Up</p>
+            </div>
+            <div>
+                {todos_completed}/{total_todos}
+            </div>
+        </section>
+    )
+}
+
+//HEADER 
+export function Header() {
+    return (
+        <>
+            <img width="58" height="58" src="https://img.icons8.com/fluency/48/microsoft-todo-2019.png" alt="microsoft-todo-2019" />
+            <h1>TO DO LIST</h1>
+        </>
+    )
+}  
+
+
+// FORM
+export function Form() {
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        event.target.reset();
+    }
+    return (
+        <form className="form" onSubmit={handleSubmit}>
+            <label htmlFor="todo">
+                <input type="text" name="todo" id="todo" placeholder="Write your next task" />
+            </label>
+            <button >Submit</button>
+        </form>
+
+    )
+}
+
+
+{/*
+The event.preventDefault() prevents the form from submitting and reloading the entire app. Lastly, we reset the form with event.target.reset().
+In JavaScript environments like React that use JSX, for is a reserved keyword. To avoid conflicts, JSX uses htmlFor instead of for to represent the HTML for attribute. When JSX is compiled into standard HTML, htmlFor is converted back to for.
+*/}
